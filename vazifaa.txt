@@ -1,0 +1,42 @@
+1-topshiriq. 
+Kundalik GitHub’daHavolalar va sonlar: [github.com/said/kundalik](https://github.com/said/kundalik)   
+Commit’lar soni: GitHub va git log --oneline’dagi sonlar teng bo‘ladi. 
+
+2-topshiriq. 
+
+Fast-forward (fayl yangilandi, 1 ta qator o‘zgardi).   
+Asl papkada o‘zgarish bormi? Yo‘q, chunki o‘zgarish faqat GitHub’ga va klonlangan nusxaga bordi. 
+Asl papkada ko‘rish uchun git pull qilish kerak.   
+
+3-topshiriq.
+
+Ali va Malika10:00 (Ali push): Muvaffaqiyatli.   
+10:20 (Malika commit): Muvaffaqiyatli.   
+10:25 (Malika push): Rad etildi (Ali oldinroq push qilgani uchun konflikt chiqadi).   
+10:30 (Malika pull + push): Muvaffaqiyatli (pull qilib birlashtirgandan keyin push o‘tadi).   
+11:00 (Ali pull qilmasdan push): Rad etildi (avval git pull qilish kerak).   
+
+4-topshiriq.
+ 
+README.md — Ha (loyiha tavsifi)   
+parollar.txt — Yo‘q (maxfiy ma'lumot)  
+Robot rasmi — Ha (shaxsiy ijod)   
+Sinfdosh surati / Manzil va telefon — Yo‘q (shaxsiy maxfiylik va ruxsatsiz)   
+kundalik.md / Maktab kodi — Ha (umumiy ma'lumot)   
+.env — Yo‘q chunki bu maxfiy kalitlar
+Parol push qilingan bo‘lsa: Faylni o‘chirish yetarli emas! Parolni zudlik bilan o‘zgartirish va commit tarixidan tozalash kerak.   
+
+5-topshiriq. 
+
+Birinchi marta olish: git clone URL   
+Manzilga ulash: git remote add origin URL  
+Manzilni tekshirish: git remote -v   
+Birinchi marta yuborish: git push -u origin main   
+Ertalab ish boshlashda: git pull   
+Kechqurun tugatganda: git push   
+
+6-topshiriq. 
+
+a) C1, C2, C3.   
+b)Chunki kompyuter buzildi va barcha mahalliy ma'lumotlar o‘sha bilan birga yo‘qoldi.   
+c) Har kuni ish tugagach o‘z vaqtida git push qilish odati.   
